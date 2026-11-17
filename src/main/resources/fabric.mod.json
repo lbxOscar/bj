@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "blackjack_tracker",
+  "version": "${version}",
+  "name": "Blackjack Tracker",
+  "description": "Client-side map-art card recognition and blackjack score HUD prototype.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.prototype.blackjack.BlackjackClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
